@@ -1,0 +1,201 @@
+body{
+    font-size: large;
+}
+header {
+    background-color: #04B2D9;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.nav-title {
+    font-family: BebasKai;
+    font-weight: bold;
+    src: url('fonts/bebas-kai/BebasKai.otf');
+    font-size: 4.5vw;
+} 
+
+
+.barbar{
+    background: #D9B26A;
+    color: white;
+}
+
+a.alink {
+    color: white;
+}
+
+nav div.collapse{
+    width: 100%;
+}
+
+.title-div{
+    width: 100%;
+}
+
+ul#horizontal-list {
+    text-align: center;
+    width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.envelope{
+    z-index: -1;
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    max-height: 700px;
+    margin-right: 20%;
+}
+
+.letter{
+    background-image: url("./images/Open_Letter_Background.png");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+
+.open-letter-writing{
+    font-family: Bodoni-72-Book;
+    src: url('fonts/OpenType/Bodoni-72-Book.otf');
+}
+div.letter h3 {
+    font-family: Bodoni-06-Bold-Italic;
+    font-weight: bold;
+    src: url('fonts/OpenType/Bodoni-06-Bold-Italic.otf');
+}
+
+div.letter h5 {
+    font-family: Bodoni-72-Bold;
+    src: url('fonts/OpenType/Bodoni-72-Bold.otf');
+}
+
+.ending-open-letter{
+    float: right;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.mission-statement{
+    background-image: url("./images/Misson_Statement_Parallax_3.png");
+    background-size:100% 100%;
+    display: block;
+    background-repeat:no-repeat;
+    margin-top: 5%;
+}
+
+.mission-blog{
+    padding-top: 3%;
+    padding-left: 3%;
+    width: 50%;
+    padding-bottom: 3%;
+}
+
+.mission-blog p {
+    font-family: Bodoni-72-Book-Italic;
+    src: url('fonts/OpenType/Bodoni-72-Book-Italic.otf');
+}
+
+.mission-blog h3{
+    font-family: Bodoni-06-Bold-Italic;
+    font-weight: bold;
+    src: url('fonts/OpenType/Bodoni-06-Bold-Italic.otf');
+}
+
+hr{
+        border-top: 1px solid black;
+}
+
+.history{
+    margin-top: 5%;
+    overflow: auto;
+}
+
+section.history img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+}
+
+.history-subtitle{
+    font-family: Bodoni-72-Book-Italic;
+    font-weight: bold;
+    src: url('fonts/OpenType/Bodoni-72-Book-Italic.otf');
+    font-size: larger;
+}
+.history-content{
+    font-family: Bodoni-72-Book;
+    src: url('fonts/OpenType/Bodoni-72-Book.otf');
+}
+
+.history h3{
+    font-family: Bodoni-06-Bold-Italic;
+    font-weight: bold;
+    src: url('fonts/OpenType/Bodoni-06-Bold-Italic.otf');
+}
+#sticky-footer {
+    flex-shrink: none;
+}
+
+.contact-us{
+    background-image: url("./images/contact_us_parrallax.png");
+    background-size:100% 100%;
+    display: block;
+    background-repeat:no-repeat;
+}
+
+.project-updates{
+    margin-bottom: 5%;
+}
+
+.project-updates-content{
+    text-align: center;
+}
+.contact-form{
+    padding: 2%;
+    font-family: Bodoni-72-Book;
+    src: url('fonts/OpenType/Bodoni-72-Book.otf');
+}
+
+input[type=submit] {
+    background-color: #04B2D9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+.project-update-list{
+    list-style-type:none;
+    margin-top: 1%;
+}
+
+.contact-us h3{
+    font-family: Bodoni-72-Bold;
+    src: url('fonts/OpenType/Bodoni-72-Bold.otf');
+}
+
+
+/*For mobile platforms*/
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .letter {
+      padding-bottom: 90%;
+    }
+}
+
+/*iPhone X/XS*/
+@media screen and (max-width: 420px) {
+    .letter {
+      padding-bottom: 300%;
+    }
+}
